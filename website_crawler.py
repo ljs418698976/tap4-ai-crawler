@@ -5,10 +5,10 @@ import random
 from pyppeteer import launch
 
 from util.common_util import CommonUtil
-from util.llm_util import LLMUtil
+from util.gemini_llm_util import GeminiLLMUtil
 from util.oss_util import OSSUtil
 
-llm = LLMUtil()
+llm = GeminiLLMUtil()
 oss = OSSUtil()
 
 # 设置日志记录
